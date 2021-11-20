@@ -1,0 +1,317 @@
+
+*{ /* selector universal */
+  margin: 0; /* Quita los margenes*/
+  padding: 0; /* Rellenos a cero todi */
+
+
+ }
+
+.menu{
+
+  background-color: rgb(6, 251, 255); /* cambios a color azul*/
+
+}
+
+.menu nav img{
+  width: 30px; /* Ancho de la imagen */
+  border-radius: 50%; /* Borde circular de la imagen */
+}
+a{
+  text-decoration: none; /* Le quitamos lo subrayado*/
+  font-size: 20px; /* Tamaño de texto */
+  color: white; /* Color de la letra */
+  padding: 12px 20px; /* Damos separaciones */
+  display: block; /* nos permite yener un ancho total de la celda */
+}
+a:hover{
+  background: rgb(44,44,44);
+}
+.menu nav {
+display: flex; /* ayuda a colocar las celdas como si fueran tablas*/
+justify-content: space-around; /*spacxe-around los elementos aparecen distribuidos uniformemente */
+
+}
+.menu nav ul{
+  list-style: none; /* Quitamos los numeros o signos de las listas */
+  display: flex; /* colocamos en celdas las listas */
+  justify-content: space-between; /*Distribuir por campos*/
+}
+.menu nav ul li ul {
+  display: flex; /* celdad*/
+  flex-direction: column;/* colocamos columnas a las listas */
+  }
+.menu nav ul li ul{
+  position: absolute; /* hacemos que los menus ya no aparezcan dentro del nav*/
+  background: #008A93;
+}
+.menu nav ul li ul li{
+  width: 180px; /* se modifica el ancho de las opciones*/
+  position: relative; /* su posicion dependera del lugar donde este en el codigo y el flujo de HTML */  
+}
+.menu nav ul li ul li ul{
+  top: 0; /* se modifica el ancho de las opciones*/
+  left: 180px; /* se colocan al costado cada submenu de opciones 3 & 2*/
+  position : absolute; /* indicamos la distancia con respecto a un punto*/   
+}
+.menu nav ul li ul{
+  display: none; /* ocultamos todos los menus secundarios*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    margin-top: auto;
+}
+
+
+footer .sociales{
+
+display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  Mosaicos */
+
+#menulateral .icono{
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+
+}
+.logo{
+  border-radius: 50%;
+  width: 30px;
+
+}
+
+#menulateral{
+  position: fixed;
+  width: 260px;
+  height: 100%;
+  background: #151719;
+
+}
+video{
+  text-align: center;
+}
+
+#menulateral ul li{
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  list-style: none;
+  border-bottom: 1px solid rgba(153, 255, 6)
+
+
+}
+
+#menulateral .icono span{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ *{/* Selector universal */
+
+  margin: 0; /* Quita los margenes*/
+  padding: 0; /* Rellenos a cero todo */
+
+
+}
+
+
+
+.menu{
+
+background: #00BFFF; /* Cambios de color azul */
+
+}
+
+.menu nav  img{
+	width: 30px; /* Ancho de la imagen */
+	border-radius: 50%; /*Borde circular a la imagen */
+}
+
+a{
+ text-decoration: none; /* Le quitamos lo subrayado*/
+ font-size: 20px; /* Tamaño de texto*/
+ color: white; /*Color le letra*/
+
+
+ padding: 12px 20px; /*  Damos separaciones*/
+ display: block; /* nos permite tener un ancho total 
+ de la celda */
+
+}
+
+a:hover{
+
+	background: rgb(44,44,44);
+}
+
+.menu nav {
+
+display: flex;/* Ayuda a colocar las 
+celdas como si fueran tablas */
+
+justify-content: space-around; /*space-around los elementos
+aparecen distribuidos uniformemente */
+
+
+}
+
+
+.menu nav ul{
+list-style: none; /*Quitamos los números o signos de las
+listas */
+
+display: flex; /* coloamos en celdas las listas */
+
+justify-content: space-between; /*Distribuir por campos*/
+
+}
+
+
+.menu nav ul li ul {
+display: flex; /* celdas */
+flex-direction: column; /* colocamos columnas a las
+listas */
+
+}
+
+
+
+.menu nav ul li ul{
+position: absolute; /* hacemos que los menús ya no 
+aparezcan dentro del nav*/
+
+background: #008A93;
+
+}
+
+
+.menu nav ul li ul li{
+
+width: 180px; /*  se modifia el ancho de las opciones*/
+
+position: relative; /* su posición dependerá del lugar donde 
+esté en el código y el flujo de HTML */
+
+
+}
+
+
+.menu nav ul li ul li ul {
+top: 0; /* para que no se muestren los submenús*/
+left: 180px; /* se colocan al costado cada submenú  de opción 3 & 2*/
+
+position: absolute;/* indecamos la distancia con respecto a un punto*/
+
+}
+
+
+.menu nav ul li ul {
+ display: none; /* ocultamos todos los menús secundarios */
+
+}
+
+
+.menu nav ul li:hover  > ul{
+
+display:  block;
+
+}
+
+div.imagenes{
+  margin: 5px 20px;
+  box-shadow: 4px 4px 4px 4px skyblue;
+  width: 270px;
+  height: 230px;
+}
+
+div.inf{
+  text-align: center;
+  ;
+}
+
+div.imagenes:hover{
+  transform: rotate(-3deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
